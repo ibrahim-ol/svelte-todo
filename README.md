@@ -1,7 +1,4 @@
 # Todo app built with svelte and tailwindcss
 
-available at
+available at [Svelte Todo](https://svelte-daily-todo.now.sh/)
 
-```
-  https://svelte-daily-todo.now.sh/
-```
