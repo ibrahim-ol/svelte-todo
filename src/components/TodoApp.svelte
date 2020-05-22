@@ -21,7 +21,7 @@
   };
   const init = el => el.focus();
   const handleDelete = e => {
-    todos.splice(e.detail.id);
+    todos.splice(e.detail.id, 1);
     todos = todos;
     updateTodos(todos);
   };
