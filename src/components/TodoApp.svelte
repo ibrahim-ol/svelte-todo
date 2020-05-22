@@ -34,7 +34,8 @@
 
 </style>
 
-<div class="relative flex-1 flex flex-col items-center px-6 pb-16">
+<div
+  class="relative flex-1 overflow-hidden flex flex-col items-center px-6 pb-16">
   <div class="w-full flex justify-between items-center text-sm ">
     <div class="flex items-center">
       <span class="text-5xl mr-1 font-bold">{date}</span>
@@ -55,7 +56,7 @@
   </div>
   {#if showInput}
     <form on:submit|preventDefault={addTodo}>
-      <div class="flex">
+      <div class="flex my-1">
         <input
           use:init
           bind:value={todo}
